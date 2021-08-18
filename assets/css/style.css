@@ -1,0 +1,207 @@
+/*Reset CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*
+1. Out to In
+2. Up to Down
+3. Left to Right(Tổng quan chi tiết)
+*/
+
+/*
+1. Vị trí
+2. Kích thước(width, height)
+3. Màu sắc
+4. Kiểu dáng(kiểu chữ, hình tròn, vuông...)
+*/
+
+/*Common*/
+
+#main{
+
+}
+
+.starting {
+    position: relative;
+    padding-top: 50%;
+    opacity: 0.70;
+    background-image: url('../image/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.slogan {
+    position: absolute;
+    /* display: inline-block; */
+    /* width: 100%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.text-slogan {
+    font-size: 27px;
+    padding: 20px;
+    background-color: #111; 
+}
+
+
+/* Section */
+
+.section-one {
+    background-color: #f4f4f4;
+    color: #666;
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.one-slogan {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.one-text {
+    font-size: 16px;
+    margin: 16px 0;
+    line-height: 1.6;
+}
+
+
+.section-image-two {
+    position: relative;
+    /* padding-top: 25%; */
+    min-height: 400px;
+    opacity: 0.70;
+    background-image: url('../image/image2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.slogan-two {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #fff  
+}
+
+.text-slogan-two {
+    text-align: center;
+    font-size: 27px;
+    padding: 20px;
+    background-color: transparent;
+}
+
+
+.section-two {
+    background-color: #282e34;
+    color: #ddd;
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.two-slogan {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.two-text {
+    font-size: 16px;
+    margin: 16px 0;
+    line-height: 1.6;
+}
+
+
+.section-image-three {
+    position: relative;
+    min-height: 400px;
+    opacity: 0.70;
+    background-image: url('../image/image3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.slogan-three {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #fff  
+}
+
+.text-slogan-three {
+    font-size: 27px;
+    padding: 20px;
+    background-color: transparent;
+}
+
+
+.section-three {
+    position: relative;
+    background-color: #282e34; /* #043a47 */
+    color: #ddd;
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.three-slogan {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.three-text {
+    font-size: 16px;
+    margin: 16px 0;
+    line-height: 1.6;
+}
+
+
+.ending {
+    position: relative;
+    padding-top: 50%;
+    opacity: 0.70;
+    background-image: url('../image/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.slogan-end {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #fff; 
+}
+
+.text-slogan-end {
+    font-size: 27px;
+    padding: 20px;
+    background-color: #111; 
+}
+
+
