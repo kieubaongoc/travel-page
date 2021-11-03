@@ -40,22 +40,43 @@ html {
     background-attachment: fixed;
 }
 
-.slogan {
-    position: absolute;
-    /* display: inline-block; */
-    /* width: 100%; */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    color: #fff;
-}
 
-.text-slogan {
-    font-size: 27px;
-    padding: 20px;
-    background-color: #111; 
+@media screen and (min-width: 870px) {
+    .slogan {
+        position: absolute;
+        /* display: inline-block; */
+        /* width: 100%; */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .text-slogan {
+        font-size: 27px;
+        padding: 20px;
+        background-color: #111; 
+    }
+}
+@media screen and (max-width: 869px) {
+    .text-slogan {
+        font-size: 27px;
+        padding: 0px;
+        text-align: right;
+        background-color: transparent;
+    }
+    .slogan{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        letter-spacing: 10px;
+        line-height: 1.6;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000  
+    }
 }
 
 
@@ -102,11 +123,32 @@ html {
     color: #fff  
 }
 
-.text-slogan-two {
-    text-align: center;
-    font-size: 27px;
-    padding: 20px;
-    background-color: transparent;
+@media screen and (max-width: 865px) {
+    .text-slogan-two {
+        font-size: 27px;
+        padding: 0px;
+        text-align: right;
+        background-color: transparent;
+    }
+    .slogan-two{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        letter-spacing: 10px;
+        line-height: 1.6;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff  
+    }
+}
+
+@media screen and (min-width: 866px) {
+    .text-slogan-three {
+        font-size: 27px;
+        padding: 20px;
+        background-color: transparent;
+    }
 }
 
 
@@ -150,10 +192,32 @@ html {
     color: #fff  
 }
 
-.text-slogan-three {
-    font-size: 27px;
-    padding: 20px;
-    background-color: transparent;
+@media screen and (max-width: 865px) {
+    .text-slogan-three {
+        font-size: 27px;
+        padding: 0px;
+        text-align: right;
+        background-color: transparent;
+    }
+    .slogan-three{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        letter-spacing: 10px;
+        line-height: 1.6;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff  
+    }
+}
+
+@media screen and (min-width: 866px) {
+    .text-slogan-three {
+        font-size: 27px;
+        padding: 20px;
+        background-color: transparent;
+    }
 }
 
 
@@ -188,20 +252,43 @@ html {
     background-attachment: fixed;
 }
 
-.slogan-end {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    color: #fff; 
+
+
+@media screen and (min-width: 874px) {
+    .text-slogan-end {
+        font-size: 27px;
+        padding: 20px;
+        background-color: #111; 
+    }
+    .slogan-end {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        color: #fff; 
+    }
+}
+@media screen and (max-width: 873px) {
+    .text-slogan-end {
+        font-size: 27px;
+        padding: 0px;
+        text-align: right;
+        background-color: transparent;
+    }
+    .slogan-end{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        letter-spacing: 10px;
+        line-height: 1.6;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000;  
+    }
 }
 
-.text-slogan-end {
-    font-size: 27px;
-    padding: 20px;
-    background-color: #111; 
-}
 
 

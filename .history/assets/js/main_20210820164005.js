@@ -4,5 +4,5 @@ function myNameShow() {
 }
 function myNameHidden() {
     var obj = document.querySelector("span.text-slogan");
-        obj.innerHTML = "hi"
+    obj.remove();
 }
