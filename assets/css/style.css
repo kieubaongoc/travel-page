@@ -123,7 +123,7 @@ html {
     color: #fff  
 }
 
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 866px) {
     .text-slogan-two {
         font-size: 27px;
         padding: 0px;
@@ -143,11 +143,22 @@ html {
     }
 }
 
-@media screen and (min-width: 866px) {
-    .text-slogan-three {
+@media screen and (min-width: 867px) {
+    .text-slogan-two {
         font-size: 27px;
         padding: 20px;
         background-color: transparent;
+    }
+    .slogan-two{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        letter-spacing: 10px;
+        line-height: 1.6;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff  
     }
 }
 
@@ -182,17 +193,7 @@ html {
     background-attachment: fixed;
 }
 
-.slogan-three {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    color: #fff  
-}
-
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 866px) {
     .text-slogan-three {
         font-size: 27px;
         padding: 0px;
@@ -212,11 +213,22 @@ html {
     }
 }
 
-@media screen and (min-width: 866px) {
+@media screen and (min-width: 867px) {
     .text-slogan-three {
         font-size: 27px;
         padding: 20px;
         background-color: transparent;
+    }
+    .slogan-three{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        letter-spacing: 10px;
+        line-height: 1.6;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff  
     }
 }
 
