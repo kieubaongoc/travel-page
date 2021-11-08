@@ -1,9 +1,17 @@
+var count = false;
+
 function myNameShow() {
-    var obj = document.querySelector("span.text-slogan");
+    if(count == true)
+    {
+        count = false;
+        var obj = document.querySelector("span.text-slogan");
         obj.innerHTML = "hi, I'm kieubaongoc";
+    }
+    else
+    {
+        count = true;
+        var obj = document.querySelector("span.text-slogan");
+        obj.innerHTML = "Parallax Website";
+    }
 }
 
-function myNameHidden() {
-    var obj = document.querySelector("span.text-slogan");
-        obj.innerHTML = "Parallx Website";
-}
